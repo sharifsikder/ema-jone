@@ -1,6 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding-top: 20px;
 }
 .product-container{
 
@@ -12,4 +13,16 @@
 .product-count{
     color: rgb(78, 4, 78);
     
+}
+
+.search-container{
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    line-height: 60px;
+}
+.search-container input{
+    width: 60%;
+    padding: 7px 5px;
+    border-radius: 6px;
+    border: 0;
 }
