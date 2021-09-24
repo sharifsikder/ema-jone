@@ -1,0 +1,30 @@
+.products{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 6px;
+}
+.product-details{
+
+    margin-left: 28px;
+}
+.product-name{
+    font-weight: 400;
+    color:rgb(7, 151, 115)
+}
+.price{
+    color:rgb(204, 4, 104);
+    font-weight: 500;
+}
+.btn-regular{
+    background-color:rgb(3, 190, 144);
+    color:white;
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+}
+    
